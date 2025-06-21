@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Science for Technology</title>
+
+  <!-- Fredoka One font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>SCIENCE FOR TECHNOLOGY</h1>
+      <label class="switch">
+        <input type="checkbox" id="modeToggle">
+        <span class="slider round"></span>
+      </label>
+    </header>
+
+    <main>
+      <section class="video-section">
+        <h2 class="section-title red">Ranking Paper Recordings</h2>
+        <div class="video-grid">
+          <a class="video-card" href="player.html?videoId=VIDEO_ID_1&title=Paper+01+MCQ+Video">
+            <div class="thumb"><i class="fas fa-play"></i></div>
+            <p>Paper 01 MCQ Video</p>
+          </a>
+          <a class="video-card" href="player.html?videoId=VIDEO_ID_2&title=Paper+02+MCQ+Video">
+            <div class="thumb"><i class="fas fa-play"></i></div>
+            <p>Paper 02 MCQ Video</p>
+          </a>
+          <a class="video-card" href="player.html?videoId=VIDEO_ID_3&title=Paper+03+MCQ+Video">
+            <div class="thumb"><i class="fas fa-play"></i></div>
+            <p>Paper 03 MCQ Video</p>
+          </a>
+          <a class="video-card" href="player.html?videoId=VIDEO_ID_4&title=Paper+04+MCQ+Video">
+            <div class="thumb"><i class="fas fa-play"></i></div>
+            <p>Paper 04 MCQ Video</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="pdf-section">
+        <h2 class="section-title red">PDF Documents</h2>
+        <div class="pdf-list">
+          <a href="pdfs/paper1.pdf" download><i class="fas fa-file-pdf"></i> Paper 01 PDF Scan</a>
+          <a href="pdfs/paper2.pdf" download><i class="fas fa-file-pdf"></i> Paper 02 PDF Scan</a>
+          <a href="pdfs/paper3.pdf" download><i class="fas fa-file-pdf"></i> Paper 03 PDF Scan</a>
+          <a href="pdfs/paper4.pdf" download><i class="fas fa-file-pdf"></i> Paper 04 PDF Scan</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
